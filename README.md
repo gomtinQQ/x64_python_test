@@ -1,3 +1,3 @@
 # PyUpbit_Realtime
 
-thread에서 UI테이블 업데이트 오류
+업비트 KRW마켓 전체종목의 실시간 시세를 표시함
