@@ -4,13 +4,13 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>07489085-86ae-413f-acf1-2c747e226fab</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PyUpbit_Realtime.py</StartupFile>
+    <StartupFile>upbit_realtime.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PyUpbit_Realtime</Name>
-    <RootNamespace>PyUpbit_Realtime</RootNamespace>
+    <Name>python_test</Name>
+    <RootNamespace>python_test</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PyUpbit_Realtime.py" />
+    <Compile Include="upbit_realtime.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
