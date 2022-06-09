@@ -172,7 +172,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 self.foo.fooSignal.emit(idx, 2, f'{scr:2.2%}')
             if self.snap_datas[idx][3] != atp24h:
                 self.snap_datas[idx][3] = atp24h
-                self.foo.fooSignal.emit(idx, 3, '{:,}백만'.format(int(atp24h/1000000)))
+                self.foo.fooSignal.emit(idx, 3, '{:,}백만'.format(int(atp24h/1000000+0.5)))
 
     def on_open(self, ws):
         data = [{
