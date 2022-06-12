@@ -49,7 +49,7 @@ class TableModel(QtCore.QAbstractTableModel):
         super(TableModel, self).__init__()
         self._data = data
         self.mother = mother
-        self.column_text = ['코인명','현재가','전일대비','거래대금']
+        self.column_text = ['코인명','현재가','상승률(24H)','거래대금(24H)']
 
     def data(self, index, role):
         if role == Qt.DisplayRole:
