@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>07489085-86ae-413f-acf1-2c747e226fab</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>upbit_realtime.py</StartupFile>
+    <StartupFile>fibo_test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="fibo_test.py" />
+    <Compile Include="kiwoom\KHOpenApi.py" />
+    <Compile Include="kiwoom_realtime.py" />
+    <Compile Include="kiwoom_telegram.py" />
+    <Compile Include="thread_test.py" />
     <Compile Include="upbit_realtime.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="kiwoom\__pycache__\KHOpenApi.cpython-39.pyc" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +43,10 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="kiwoom\" />
+    <Folder Include="kiwoom\__pycache__\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

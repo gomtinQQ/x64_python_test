@@ -1,6 +1,7 @@
 PyQt5
 requests
 websocket-client
+pywin32
 
 
 
