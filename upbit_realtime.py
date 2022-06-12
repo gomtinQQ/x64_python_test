@@ -2,7 +2,7 @@
 # pip install PyQt5
 # pip install requests
 # pip install websocket-client
-# Save as UNICODE UTF-8 signed
+# Save as UNICODE UTF-8 signature
 
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
